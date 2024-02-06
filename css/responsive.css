@@ -1,0 +1,21 @@
+@media screen and (max-width:992px) {
+    .menu {
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        background-color: antiquewhite;
+    }
+    .menu ul li {
+        padding: 16px 55px 16px 10px;
+    }
+
+    .menu {
+        display: none;
+    }
+    .header-right {
+        column-gap: 0px;
+    }
+    .navbar {
+        justify-content: end;
+    }
+}

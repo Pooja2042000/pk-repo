@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header id="header-section">
+        <div class="container">
+            <div class="rowes ">
+                <div class="col-2 logo">
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                </div>
+                <nav class="col-10 navbar navbar-expand-lg navbar-light header-right">
+                    <div class=" order-2 order-lg-1">
+                        <button class="navbar-toggler btn   border-0 btnpk" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="d-lg-flex order-3 order-lg-1 menu">
+                        <ul class="navbar-nav m-auto mb-lg-0 ">
+                            <li class="nav-item">
+                                <a class="nav-link p-0" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-0" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-0" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-0" href="#">Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-0" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="link order-1 order-lg-1">
+                        <span class="">
+                            Get Started
+                        </span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner-section" style="background-color: #f2f2f2;">
+        <div class="container">
+            <div class="row">
+                <div class="banner-main">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item d-flex active">
+                                <!-- <div class="main-banner "> -->
+                                <div class="banner-text w-50">
+                                    <h3>Ninad Creative Agency</h3>
+                                    <h1>Creative Mind With
+                                        Creative People</h1>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when at its layout.</p>
+                                    <a href="#">Read-More</a>
+                                </div>
+                                <div class="banner-img w-50">
+                                    <img src="images/banner.png" class="d-block" alt="...">
+                                </div>
+                                <!-- </div> -->
+                            </div>
+                            <div class="carousel-item d-flex">
+                                <div class="banner-text w-50">
+                                    <h3>Ninad Creative Agency</h3>
+                                    <h1>Creative Mind Wit
+                                        Creative People</h1>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when at its layout.</p>
+                                    <a href="#">Read-More</a>
+                                </div>
+                                <div class="banner-img w-50">
+                                    <img src="images/img.png" class="d-block" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item d-flex">
+                                <div class="banner-text w-50">
+                                    <h3>Ninad Creative Agency</h3>
+                                    <h1>Creative Mind With
+                                        Creative People</h1>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when at its layout.</p>
+                                    <a href="#"></a>Read-More </a>
+                                </div>
+                                <div class="banner-img w-50">
+                                    <img src="images/logo.png" class="d-block" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon text-info" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.btn').click(function () {
+                $('.menu').slideToggle();
+            });
+        });
+    </script>
+</body>
+
+</html>
